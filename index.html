@@ -14,7 +14,6 @@
 <script>
   googletag.cmd.push(function() {
     googletag.defineSlot('/23313830399/reward', [[1024, 768], [768, 1024]], 'div-gpt-ad-1786165986923-0').addService(googletag.pubads());
-    googletag.enableServices();
   });
 </script>
 
@@ -717,7 +716,7 @@
   </div>
 </div>
 
-<div class="version-tag">build v50 (video + all ads)</div>
+<div class="version-tag">build v51 (video + all ads)</div>
 
 <!-- rewarded ad modal -->
 <div id="rewardModal" class="hidden">
@@ -820,7 +819,6 @@
 
       adSlotRewarded.setForceSafeFrame(true);
       googletag.pubads().enableAsyncRendering();
-      googletag.enableServices();
 
       var modal = document.getElementById("rewardModal");
       var closeButton = document.querySelector("#rewardModal .btn");
